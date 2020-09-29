@@ -1,0 +1,82 @@
+body {
+    font-size: 1.5em
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+.high-score {
+    padding: 10px;
+    display: inline;
+}
+
+.timer {
+    display: inline;
+    padding: 10px;
+    
+    
+
+}
+
+.start {
+    margin: 100px auto 0 auto;
+    max-width: 700px;
+    text-align: center;
+  
+}
+
+.ghost {
+    display: none;
+}
+
+.welcome-text {
+    padding-top: 16px;
+    text-align: center;
+
+}
+
+
+#start-button {
+    margin-top: 16px;
+    font-size: 1em;
+    padding: 8px 24px;
+}
+
+#question {
+    margin: 100px auto 0 auto;
+    max-width: 700px;
+    text-align: center;
+
+}
+
+  
+button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color: rgb(228, 106, 106);
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+
+  button:hover {
+      background-color: blue;
+  }
+
+.score-title {
+    margin: 10px auto 0 auto;
+}
+
+
+  
+  
